@@ -1,0 +1,8 @@
+#header{
+    background-image: url("../images/header_background.jpg");
+}
+
+#header #search-input{
+    outline: none;
+    border: none;
+}
