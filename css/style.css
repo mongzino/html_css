@@ -1,0 +1,13 @@
+/* header */
+/* main */
+
+.youtube-container {
+  width: 100%;
+}
+.youtube-video {
+  width: 90%;
+  margin: 10px auto;
+  height: 40vh;
+}
+
+/* footer */
