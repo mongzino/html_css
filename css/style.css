@@ -1,3 +1,6 @@
+a {
+  text-decoration: none;
+}
 #header {
   background-image: url("../images/header_background.jpg");
   background-size: auto;
@@ -59,7 +62,6 @@
   background-color: purple;
 }
 
-
 .main_ContentBox {
   width: 100%;
   height: auto;
@@ -76,8 +78,8 @@
   transition: transform 0.3s;
 }
 
-.main_Image:hover{
-  transform: scale(1.1); 
+.main_Image:hover {
+  transform: scale(1.1);
 }
 .main_Text {
   width: auto;

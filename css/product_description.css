@@ -3,6 +3,7 @@
   max-width: 50em;
   min-width: 40em;
   margin: 0 auto;
+  position: relative;
 }
 
 .product_main_box {
@@ -22,7 +23,13 @@
   margin: 5px;
   border: 1px solid purple;
 }
-
+.product_main_desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 1em;
+}
 .product_desc_menu_box {
   width: 100%;
   box-sizing: border-box;
@@ -81,12 +88,10 @@
 }
 
 .product_reservation {
-  position: fixed;
+  position: absolute;
   top: 30%;
-  right: 5em;
+  right: -22em;
   border: 1px solid #e5e5e5;
-  background-color: white;
-  z-index: 5;
   width: 18em;
   display: flex;
   flex-direction: column;
