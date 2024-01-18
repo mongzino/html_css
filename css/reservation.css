@@ -1,3 +1,10 @@
+.resv-container {
+  width: 50%;
+  max-width: 45em;
+  min-width: 30em;
+  margin: 0 auto;
+}
+
 .resv-container > div,
 .resv-container > form {
   border: 1px solid #f5f5f5;
@@ -24,14 +31,16 @@
   align-items: center;
 }
 
-.resv-info-desc span {
-  width: 80%;
+.resv-info-desc select {
+  width: 90%;
+  padding: 0.5em;
+  font-size: 1em;
 }
 
 .resv-info-desc img {
   width: 2em;
   height: 2em;
-  border: 0.5em;
+  border: 1px solid;
   border-radius: 0.3em;
 }
 

@@ -1,0 +1,178 @@
+/* join1 page */
+* {
+  box-sizing: border-box;
+}
+
+.join-nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  font-weight: 700;
+}
+
+/* join1 */
+
+.join1-container {
+  margin: 0 auto;
+  width: 50%;
+  max-width: 45em;
+  min-width: 30em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.join1-container a {
+  text-decoration: none;
+}
+.join1-desc {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 1.5em 0;
+}
+
+.join1-desc span:first-child {
+  font-size: 1.5em;
+  margin: 0.5em 0;
+}
+
+.join1-desc span:last-child {
+  font-size: 0.8em;
+}
+
+.join1-benefit-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.join1-benefit-box > div {
+  width: 90%;
+  padding: 1em 1.5em;
+  margin: 0.5em 0;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 0.5em;
+}
+
+.join1-benefit-box > div > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.join1-benefit-box > div > div span:first-child {
+  font-size: 0.8em;
+  opacity: 0.5;
+}
+
+.join1-benefit-box > div > div span:last-child {
+  font-weight: 600;
+}
+.join1-benefit-box i {
+  font-size: 2em;
+}
+.join1-benefit-1 {
+  background-color: #f1f5ff;
+}
+
+.join1-benefit-2 {
+  background-color: #f9f9f9;
+}
+
+.join1-benefit-3 {
+  background-color: #fef7f2;
+}
+
+.join1-btn {
+  background-color: #5d2bb8;
+  width: 90%;
+  padding: 1em;
+  text-align: center;
+  border-radius: 2em;
+  margin: 2em 0;
+}
+.join1-btn a {
+  color: white;
+}
+.join1-social img {
+  width: 2.5em;
+  height: 2.5em;
+  border-radius: 50%;
+  margin: 0 1em;
+}
+
+/* join2 */
+.join2-container {
+  margin: 0 auto;
+  width: 50%;
+  min-width: 30em;
+  max-width: 45em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.join2-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.join2-id-box {
+  width: 100%;
+  position: relative;
+}
+
+.join2-id-box input {
+  margin-left: 5%;
+}
+
+.join2-id-box div {
+  position: absolute;
+  right: 7%;
+  font-size: 0.8em;
+  top: 0.8em;
+  background-color: #e5e5e5;
+  padding: 0.3em 0.5em;
+  border-radius: 0.2em;
+}
+
+.join2-form input {
+  width: 90%;
+  border-radius: 0.2em;
+  border: 1px solid #dbdbdb;
+  margin-bottom: 1em;
+  padding: 1em;
+}
+
+.join2-submit-box {
+  width: 100%;
+  margin-left: 10%;
+}
+
+.join2-div-info-box {
+  width: 90%;
+  margin: 1em 0;
+}
+
+.join2-container .join2-div-info-box label {
+  width: 22em;
+  margin-right: 0;
+}
+#join2-submit {
+  border-radius: 2em;
+  opacity: 0.7;
+  margin: 1em 0;
+}
+#join2-div-info {
+  width: 1.2em;
+  text-align: center;
+  margin: 0;
+}
