@@ -1,32 +1,31 @@
 #header {
   background-image: url("../images/header_background.jpg");
   background-size: auto;
-    padding: 10px auto;
+  padding: 10px auto;
 }
-#header #logo{
-    padding: 10px auto;
+#header #logo {
+  padding: 10px auto;
 }
-#header .fld-search{
-    padding: auto;
-    background-color: white;
-    clear: right;
+#header .fld-search {
+  padding: auto;
+  background-color: white;
+  clear: right;
 }
 
-
-#header #search-input{
-    outline: none;
-    border: none;
-    font-size: 1.2rem;
+#header #search-input {
+  outline: none;
+  border: none;
+  font-size: 1.2rem;
 }
-#header .login_box{
-    padding: 20px auto;
-    float: right;
-    font-size: 1rem;
+#header .login_box {
+  padding: 20px auto;
+  float: right;
+  font-size: 1rem;
 }
-#header .sign_box{
-    padding: 20px auto;
-    float: right;
-    font-size: 1rem;
+#header .sign_box {
+  padding: 20px auto;
+  float: right;
+  font-size: 1rem;
 }
 
 .menu ul {
@@ -35,30 +34,17 @@
   padding-bottom: 5px;
 }
 
-.menu ul li{
-    display: inline-block;
-    width: 100px;
-    padding: 10px;
-    background-color: white;
-    text-align: center;
-    color: black;
-    font-size: 1.5rem;
+.menu ul li {
+  display: inline-block;
+  width: 100px;
+  padding: 10px;
+  background-color: white;
+  text-align: center;
+  color: black;
+  font-size: 1.5rem;
 }
-.menu ul li a:active
-{
-    background-color: white;
-}
-
-#main_ContentBox:target
-{
-    background-color: white;
-}
-#youtube-container:target
-{
-    background-color: white;
-}
-#footer_all:target{
-    background-color: white;
+.menu ul li a:active {
+  background-color: white;
 }
 .menu ul li.menu_home {
   background-color: red;
@@ -97,11 +83,77 @@
 }
 
 /* 유튜브 영상 */
-.youtube-container {
+.youtube_container {
   width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5em;
 }
-.youtube-video {
-  width: 90%;
-  margin: 10px auto;
-  height: 40vh;
+
+/* 양지은 footer 구역 시작 */
+
+#footer_all {
+  background-color: #eaeaea;
+  border-top: 1px solid;
+  margin: 0px -10px;
+  color: black;
 }
+/* 고객센터, 고객센터 운영시간안내, 투어이름 */
+#footer_up {
+  font-size: 17px;
+  color: #5e5e5e;
+  margin: 20px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-flow: no wrap;
+}
+/* 조조투어 이름 텍스트 디자인 */
+.footer_title {
+  font-weight: bold;
+  font-size: 16px;
+  color: black;
+}
+/* 조조투어 그림 위치 설정 */
+.footer_img {
+  position: absolute;
+  left: 125px;
+}
+/* 고객센터 운영시간 안내 위치 설정 */
+.footer_custime {
+  margin-left: 250px;
+}
+/* 투어 주의사항 구역 위치 설정 */
+.footer_notice {
+  list-style: none;
+  text-align: center;
+  font-size: 12px;
+  position: relative;
+  top: 120px;
+}
+/* 고객센터 위치 설정 */
+.footer_customer {
+  list-style: none;
+  margin-left: 250px;
+  margin-top: 0px;
+}
+/* 고객센터 텍스트 스타일 */
+.footer_custitle {
+  font-weight: bold;
+}
+/* copyright 텍스트 */
+.footer_tourname {
+  text-align: right;
+  font-size: 11px;
+  margin-top: 200px;
+  margin-right: 40px;
+}
+
+/* 조조투어(주소, 등록번호) 구역 위치설정 */
+.footer.tour_infor {
+  border: 1px solid black;
+  margin-top: 30px;
+}
+
+/* 양지은 footer 구역 끝  */
