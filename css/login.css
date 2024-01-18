@@ -1,0 +1,107 @@
+/* 양지은_로그인 페이지 CSS 시작 */
+body{
+  background-image: url(../images/jojo_login.jpg);
+  background-size: cover;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+
+/* 로그인 메뉴바 */
+#login_menu{
+margin: -22px;
+display: grid;
+grid-template-columns:repeat(auto-fit,150px);
+float: right;
+border: none;
+padding: 10px 10px;
+box-sizing: border-box;
+background-color: rgb(115, 108, 108);
+color: white;
+font-weight: bold;
+}
+
+
+/* 환영합니다. 위치 조정 */
+h1{
+text-align: center;
+margin: 80px auto;
+position: relative;
+left: 20px;
+color: black;
+margin-right: 20px;
+}
+
+/* 로그인 전체 페이지 */
+#login_section{
+  margin: 18px auto;
+  text-align: center;
+  display: grid;
+}
+/* pw/id/로그인버튼 입력칸 */
+.login{
+  width:fit-content;
+  margin: 10px auto;
+  list-style: none;
+  color: black;
+  position: relative;
+  left: -20px;
+  font-weight: bold;
+}
+
+/* ID/PW input칸 크기 */
+.login_input{padding: 10px 10px; width: 300px;}
+
+/* 로그인 버튼 */
+.login_button{
+background-color: black;
+color: white;
+width: 323px;
+height: 49px;
+cursor: pointer;
+font-weight: bold;
+}
+/* 로그인버튼 효과 */
+.button:hover, button:focus{
+background-color: red;
+}
+.button:active{
+background-color: red;
+}
+
+/* 로그인 페이지 밑 메뉴바 */
+.login_bottom{
+
+padding: 20px 27px 27px;
+text-align: center;
+border-width: 90px;
+align-items: center;
+border: 1px solid none;
+margin-left: -30px;
+margin-right: -30px;
+margin-top: 41px;
+background-color: black;
+color: white;
+}
+
+/* 링크 스타일*/
+a{  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+.title{
+text-align: center;
+  position: relative;
+}
+
+/* 로그인 칸 뒤의 불투명한 하얀 박스 */
+.login_center_box{
+box-sizing: content-box;
+border: none;
+margin: 0px auto;
+margin-top: 56px;
+background-color: rgb(225, 225, 225,0.7);
+height : 450px;
+}
+/* 양지은_로그인 페이지 CSS 끝 */
