@@ -1,43 +1,166 @@
-.reservation-container label {
-  display: inline-block;
-  width: 4em;
-  margin: 0.8em;
+.resv-container > div,
+.resv-container > form {
+  border: 1px solid #f5f5f5;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-
-.reservation-container input {
-  height: 2em;
-  width: 15em;
-  text-align: center;
-  border-radius: 0.2em;
-  background-color: rgb(250, 250, 250);
-  border: 1px solid #dbdbdb;
-}
-
-.reservation-container .reservation-submit {
-  width: 5em;
-  background-color: #67b5fa;
-  color: white;
-  border-radius: 0.5em;
-  float: right;
-  margin-right: 2em;
-}
-
-.reservation-submit-box {
+.resv-information {
   width: 100%;
 }
 
-.reservation-div-info-box {
+.resv-info-desc {
+  width: 90%;
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
-.reservation-container .reservation-div-info-box label {
-  width: 22em;
-  margin-right: 0;
+.resv-info-desc span {
+  width: 80%;
 }
 
-#reservation-div-info {
-  width: 1.2em;
+.resv-info-desc img {
+  width: 2em;
+  height: 2em;
+  border: 0.5em;
+  border-radius: 0.3em;
+}
+
+.resv-info-person {
+  width: 90%;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  background-color: #e5e5e5;
+  margin: 1em 0;
+}
+
+.resv-info-person span:first-child {
+  opacity: 0.4;
+  padding: 0.5em;
+}
+
+.resv-info-date {
+  display: flex;
+  border: 1px solid #e5e5e5;
+  width: 100%;
+  height: 5em;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1em;
+}
+
+.resv-info-date div {
+  width: 40%;
   text-align: center;
-  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+.resv-info-date div span:first-child {
+  opacity: 0.6;
+  margin: 0.3em;
+}
+
+.resv-info-date div:nth-child(2) {
+  width: 10%;
+  background-color: #5d2bb8;
+  color: white;
+  border-radius: 1em;
+  padding: 0.3em 0.5em;
+}
+
+.resv-customer-box {
+  width: 90%;
+  padding-bottom: 2em;
+}
+
+.resv-customer-box > div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.resv-customer-box span {
+  font-size: 0.8em;
+  margin-left: 1em;
+  color: #ea5447;
+  opacity: 0.8;
+}
+
+.resv-customer-box input {
+  width: 90%;
+  height: 2em;
+  padding: 0.5em 1em;
+  margin: 0.5em;
+  border-radius: 0.5em;
+  border: 1px solid #e5e5e5;
+}
+
+.resv-container h2 {
+  width: 90%;
+  float: left;
+}
+.resv-policy-box {
+  width: 90%;
+  padding-bottom: 2em;
+}
+
+.resv-policy span {
+  text-decoration: underline;
+  color: #8cb2ff;
+}
+
+.resv-policy {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.resv-policy input {
+  margin: 0.5em 1em;
+}
+
+.resv-pay-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.resv-pay-price {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 1em;
+}
+
+.resv-pay-btn-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.resv-pay-btn-box a {
+  width: 50%;
+  text-decoration: none;
+  color: black;
+}
+.resv-pay-btn-box div {
+  width: 90%;
+  height: 2em;
+  border: 1px solid #e5e5e5;
+  text-align: center;
+  padding-top: 1em;
+  border-radius: 1.5em;
+  margin: 2em auto;
+}
+
+.resv-pay-btn-box div:hover {
+  background-color: #5d2bb8;
+  color: white;
 }
