@@ -17,9 +17,53 @@
   border: 1px solid purple;
 }
 
+.product_descFixedBarBox {
+  margin: 5px;
+  margin-top: 5rem;
+  box-sizing: border-box;
+  width: 96vw;
+  height: 100px;
+  /* border: 1px solid purple; */
+  display: flex;
+  top: 0;
+  background-color: white;
+  position: sticky;
+  justify-content: center;
+}
+
 .product_descFixedBar {
+  flex: 1;
+  padding-top: 2.3rem;
+  text-align: center;
+  width: auto;
+  height: auto;
+  border: 1px solid black;
+}
+
+.product_descText {
+  width: 96vw;
+  margin-top: 2rem; 
+}
+
+#product_opt1:hover,
+#product_opt2:hover,
+#product_opt3:hover,
+#product_opt4:hover,
+#product_opt5:hover,
+#product_opt6:hover {
+  
+  background-color: #ccc; 
+  color: #333; 
+}
+
+.product_descTextContentBox {
+  width: 600px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 100px);
   
 }
+
 
 @media screen and (min-width: 600px) {
   .product_descImage,
