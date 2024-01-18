@@ -1,39 +1,37 @@
-<<<<<<< HEAD
-#header{
-    background-image: url("../images/header_background.jpg");
-    background-size: auto;
+<<<<<<< HEAD #header {
+  background-image: url("../images/header_background.jpg");
+  background-size: auto;
 }
 
-#header #search-input{
-    outline: none;
-    border: none;
+#header #search-input {
+  outline: none;
+  border: none;
 }
 
-.menu ul{
-    list-style: none;
-    padding-top: 10px;
-    padding-bottom:5px;
+.menu ul {
+  list-style: none;
+  padding-top: 10px;
+  padding-bottom: 5px;
 }
 
-.menu ul li{
-    display: inline-block;
-    width: 100px;
-    padding: 10px;
-    background-color: white;
-    text-align: center;
-
+.menu ul li {
+  display: inline-block;
+  width: 100px;
+  padding: 10px;
+  background-color: white;
+  text-align: center;
 }
-.menu ul li.menu_home{
-    background-color: red;
+.menu ul li.menu_home {
+  background-color: red;
 }
-.menu ul li.menu_main{
-    background-color: aquamarine;
+.menu ul li.menu_main {
+  background-color: aquamarine;
 }
-.menu ul li.menu_yt{
-    background-color: yellow;
+.menu ul li.menu_yt {
+  background-color: yellow;
 }
-.menu ul li.menu_footer{
-    background-color: purple;
+.menu ul li.menu_footer {
+  background-color: purple;
 }
 .main_ContentBox {
   width: 100%;
@@ -50,7 +48,6 @@
   margin: 10px;
   border: 1px solid black;
   background-color: red;
-  
 }
 .main_Text {
   width: auto;
@@ -59,10 +56,8 @@
   border: none;
   /* float: left; */
 }
-=======
-/* header */
-/* main */
 
+/* 유튜브 영상 */
 .youtube-container {
   width: 100%;
 }
@@ -71,6 +66,3 @@
   margin: 10px auto;
   height: 40vh;
 }
-
-/* footer */
->>>>>>> yjh_main-video
