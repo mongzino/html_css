@@ -1,0 +1,172 @@
+.resv-container > div,
+.resv-container > form {
+  border: 1px solid #f5f5f5;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.resv-container h2 {
+  width: 90%;
+  float: left;
+}
+
+/* 여행 정보 */
+.resv-information {
+  width: 100%;
+}
+
+.resv-info-desc {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.resv-info-desc span {
+  width: 80%;
+}
+
+.resv-info-desc img {
+  width: 2em;
+  height: 2em;
+  border: 0.5em;
+  border-radius: 0.3em;
+}
+
+.resv-info-person {
+  width: 90%;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  background-color: #e5e5e5;
+  margin: 1em 0;
+}
+
+.resv-info-person span:first-child {
+  opacity: 0.4;
+  padding: 0.5em;
+}
+
+.resv-info-date {
+  display: flex;
+  border: 1px solid #e5e5e5;
+  width: 90%;
+  height: 5em;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1em;
+  margin-bottom: 2em;
+}
+
+.resv-info-date div {
+  width: 40%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.resv-info-date div span:first-child {
+  opacity: 0.6;
+  margin: 0.3em;
+}
+
+.resv-info-date div:nth-child(2) {
+  width: 4em;
+  background-color: #5d2bb8;
+  color: white;
+  border-radius: 1em;
+  padding: 0.3em 0.5em;
+}
+
+/* 여행자 정보 */
+.resv-customer-box {
+  width: 100%;
+  padding-bottom: 2em;
+}
+
+.resv-customer-box > div {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+
+.resv-customer-box span {
+  font-size: 0.8em;
+  margin-left: 1em;
+  color: #ea5447;
+  opacity: 0.8;
+}
+
+.resv-customer-box input {
+  width: 90%;
+  height: 2em;
+  padding: 0.5em 1em;
+  margin: 0.5em;
+  border-radius: 0.5em;
+  border: 1px solid #e5e5e5;
+}
+
+/* 약관 및 개인정보 동의 */
+.resv-policy-box {
+  width: 100%;
+  padding-bottom: 2em;
+}
+
+.resv-policy span {
+  text-decoration: underline;
+  color: #8cb2ff;
+}
+
+.resv-policy {
+  width: 90%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.resv-policy input {
+  margin: 0.5em 1em;
+}
+
+/* 결제 상세내역 */
+.resv-pay-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.resv-pay-price {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 1em;
+}
+
+.resv-pay-btn-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.resv-pay-btn-box a {
+  width: 50%;
+  text-decoration: none;
+  color: black;
+}
+.resv-pay-btn-box div {
+  width: 90%;
+  height: 2em;
+  border: 1px solid #e5e5e5;
+  text-align: center;
+  padding-top: 1em;
+  border-radius: 1.5em;
+  margin: 2em auto;
+}
+
+.resv-pay-btn-box div:hover {
+  background-color: #5d2bb8;
+  color: white;
+}

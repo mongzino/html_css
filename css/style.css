@@ -1,11 +1,32 @@
 #header{
   background-image: url("../images/header_background.jpg");
   background-size: auto;
+    padding: 10px auto;
+}
+#header #logo{
+    padding: 10px auto;
+}
+#header .fld-search{
+    padding: auto;
+    background-color: white;
+    clear: right;
 }
 
-#header #search-input {
-  outline: none;
-  border: none;
+
+#header #search-input{
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+}
+#header .login_box{
+    padding: 20px auto;
+    float: right;
+    font-size: 1rem;
+}
+#header .sign_box{
+    padding: 20px auto;
+    float: right;
+    font-size: 1rem;
 }
 
 .menu ul {
@@ -14,12 +35,18 @@
   padding-bottom: 5px;
 }
 
-.menu ul li {
-  display: inline-block;
-  width: 100px;
-  padding: 10px;
-  background-color: white;
-  text-align: center;
+.menu ul li{
+    display: inline-block;
+    width: 100px;
+    padding: 10px;
+    background-color: white;
+    text-align: center;
+    color: black;
+    font-size: 1.5rem;
+}
+.menu ul li a:active
+{
+    background-color: white;
 }
 .menu ul li.menu_home {
   background-color: red;
