@@ -57,6 +57,9 @@
 {
     background-color: white;
 }
+#footer_all:target{
+    background-color: white;
+}
 .menu ul li.menu_home {
   background-color: red;
 }
