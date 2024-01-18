@@ -1,6 +1,10 @@
 a {
   text-decoration: none;
 }
+body {
+  margin: 0;
+}
+
 #header {
   background-image: url("../images/header_background.jpg");
   background-size: auto;
@@ -103,7 +107,8 @@ a {
 #footer_all {
   background-color: #eaeaea;
   border-top: 1px solid;
-  margin: 0px -10px;
+  width: 100%;
+  /* height: auto; */
   color: black;
 }
 /* 고객센터, 고객센터 운영시간안내, 투어이름 */
@@ -111,7 +116,7 @@ a {
   font-size: 17px;
   color: #5e5e5e;
   margin: 20px;
-  margin-top: 10px;
+  margin-top: 50px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -120,7 +125,7 @@ a {
 /* 조조투어 이름 텍스트 디자인 */
 .footer_title {
   font-weight: bold;
-  font-size: 16px;
+  font-size: 1rem;
   color: black;
 }
 /* 조조투어 그림 위치 설정 */
