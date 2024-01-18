@@ -1,6 +1,6 @@
-#header{
-    background-image: url("../images/header_background.jpg");
-    background-size: auto;
+#header {
+  background-image: url("../images/header_background.jpg");
+  background-size: auto;
     padding: 10px auto;
 }
 #header #logo{
@@ -29,10 +29,10 @@
     font-size: 1rem;
 }
 
-.menu ul{
-    list-style: none;
-    padding-top: 10px;
-    padding-bottom:5px;
+.menu ul {
+  list-style: none;
+  padding-top: 10px;
+  padding-bottom: 5px;
 }
 
 .menu ul li{
@@ -44,17 +44,21 @@
     color: black;
     font-size: 1.5rem;
 }
-.menu ul li.menu_home{
-    background-color: red;
+.menu ul li a:active
+{
+    background-color: white;
 }
-.menu ul li.menu_main{
-    background-color: aquamarine;
+.menu ul li.menu_home {
+  background-color: red;
 }
-.menu ul li.menu_yt{
-    background-color: yellow;
+.menu ul li.menu_main {
+  background-color: aquamarine;
 }
-.menu ul li.menu_footer{
-    background-color: purple;
+.menu ul li.menu_yt {
+  background-color: yellow;
+}
+.menu ul li.menu_footer {
+  background-color: purple;
 }
 .main_ContentBox {
   width: 100%;
@@ -71,7 +75,6 @@
   margin: 10px;
   border: 1px solid black;
   background-color: red;
-  
 }
 .main_Text {
   width: auto;
@@ -79,4 +82,14 @@
   margin: 10px;
   border: none;
   /* float: left; */
+}
+
+/* 유튜브 영상 */
+.youtube-container {
+  width: 100%;
+}
+.youtube-video {
+  width: 90%;
+  margin: 10px auto;
+  height: 40vh;
 }
