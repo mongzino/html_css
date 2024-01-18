@@ -7,6 +7,12 @@
   align-items: center;
   justify-content: center;
 }
+.resv-container h2 {
+  width: 90%;
+  float: left;
+}
+
+/* 여행 정보 */
 .resv-information {
   width: 100%;
 }
@@ -45,11 +51,12 @@
 .resv-info-date {
   display: flex;
   border: 1px solid #e5e5e5;
-  width: 100%;
+  width: 90%;
   height: 5em;
   justify-content: center;
   align-items: center;
   border-radius: 1em;
+  margin-bottom: 2em;
 }
 
 .resv-info-date div {
@@ -64,20 +71,21 @@
 }
 
 .resv-info-date div:nth-child(2) {
-  width: 10%;
+  width: 4em;
   background-color: #5d2bb8;
   color: white;
   border-radius: 1em;
   padding: 0.3em 0.5em;
 }
 
+/* 여행자 정보 */
 .resv-customer-box {
-  width: 90%;
+  width: 100%;
   padding-bottom: 2em;
 }
 
 .resv-customer-box > div {
-  width: 100%;
+  width: 90%;
   display: flex;
   flex-direction: column;
 }
@@ -98,12 +106,9 @@
   border: 1px solid #e5e5e5;
 }
 
-.resv-container h2 {
-  width: 90%;
-  float: left;
-}
+/* 약관 및 개인정보 동의 */
 .resv-policy-box {
-  width: 90%;
+  width: 100%;
   padding-bottom: 2em;
 }
 
@@ -113,7 +118,7 @@
 }
 
 .resv-policy {
-  width: 100%;
+  width: 90%;
   display: flex;
   justify-content: flex-start;
 }
@@ -122,6 +127,7 @@
   margin: 0.5em 1em;
 }
 
+/* 결제 상세내역 */
 .resv-pay-box {
   width: 100%;
   display: flex;
