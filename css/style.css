@@ -65,12 +65,13 @@
   height: auto;
   box-sizing: border-box;
   display: grid;
+  place-items: center;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
 }
 
 .main_Image {
-  width: auto;
+  width: 300px;
   height: 200px;
   margin: 10px;
   transition: transform 0.3s;
@@ -80,7 +81,7 @@
   transform: scale(1.1); 
 }
 .main_Text {
-  width: auto;
+  width: 300px;
   height: 150px;
   margin: 10px;
   border: none;
