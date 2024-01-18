@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>예약페이지</title>
+    <link rel="stylesheet" href="../css/reservation.css" />
+  </head>
+  <body>
+    <div class="resv-container">
+      <div class="resv-information">
+        <h2 class="resv-title">여행 정보</h2>
+        <div class="resv-info-desc">
+          <span>일본 간사이 지방 4박5일 투어 #오사카 #교토 #나라</span>
+          <img src="../images/bear.jpg" alt="image" />
+        </div>
+        <div class="resv-info-person">
+          <span>인원</span>
+          <span>성인 1</span>
+        </div>
+        <div class="resv-info-date">
+          <div>
+            <span>출발일</span>
+            <span>24.02.01(목)</span>
+          </div>
+          <div>4박5일</div>
+          <div>
+            <span> 도착일 </span>
+            <span>24.02.05(월)</span>
+          </div>
+        </div>
+      </div>
+      <form class="resv-customer-box">
+        <h2>여행자 정보</h2>
+        <div>
+          <input
+            type="text"
+            name="name"
+            class="resv-customer"
+            placeholder="성명"
+          />
+          <span>한글 성명을 입력해 주세요.</span>
+        </div>
+        <div>
+          <input
+            type="text"
+            name="number"
+            class="resv-customer"
+            placeholder="연락처"
+          />
+          <span>'-'을 제외하고 입력해 주세요.</span>
+        </div>
+        <div>
+          <input
+            type="text"
+            name="birth"
+            class="resv-customer"
+            placeholder="생년월일"
+          />
+          <span>8자리로 입력해 주세요.</span>
+        </div>
+      </form>
+      <form class="resv-policy-box">
+        <h2>약관 및 개인정보 동의</h2>
+        <div class="resv-policy">
+          <input type="checkbox" name="check1" id="resv-policy-check1" />
+          <label for="resv-policy-check1"
+            >(필수) <span>국외여행 표준 약관</span> 동의</label
+          >
+        </div>
+        <div class="resv-policy">
+          <input type="checkbox" name="check2" id="resv-policy-check2" />
+          <label for="resv-policy-check2"
+            >(필수) <span>개인정보 수집 및 이용</span> 동의</label
+          >
+        </div>
+        <div class="resv-policy">
+          <input type="checkbox" name="check3" id="resv-policy-check3" />
+          <label for="resv-policy-check3"
+            >(필수) <span>개인정보 제3자 제공</span> 동의</label
+          >
+        </div>
+        <div class="resv-policy">
+          <input type="checkbox" name="check4" id="resv-policy-check4" />
+          <label for="resv-policy-check4"
+            >(선택) <span>위치정보 이용약관</span> 동의</label
+          >
+        </div>
+      </form>
+      <div class="resv-pay-box">
+        <h2>결제 상세내역</h2>
+        <div class="resv-pay-price">
+          <span>최종 결제금액</span>
+          <span>809,000원</span>
+        </div>
+        <div class="resv-pay-btn-box">
+          <a href="#">
+            <div>결제 보류</div>
+          </a>
+          <a href="#">
+            <div>결제하기</div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
