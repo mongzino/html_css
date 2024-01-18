@@ -40,7 +40,7 @@
   padding: 10px;
   background-color: white;
   text-align: center;
-  color: black;
+  color: white;
   font-size: 1.5rem;
 }
 .menu ul li a:active {
@@ -58,6 +58,7 @@
 .menu ul li.menu_footer {
   background-color: purple;
 }
+
 
 .main_ContentBox {
   width: 100%;
