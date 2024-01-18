@@ -2,6 +2,7 @@
 * {
   box-sizing: border-box;
 }
+
 .join-nav {
   width: 100%;
   display: flex;
@@ -13,7 +14,10 @@
 /* join1 */
 
 .join1-container {
-  width: 30em;
+  margin: 0 auto;
+  width: 50%;
+  max-width: 45em;
+  min-width: 30em;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -104,6 +108,10 @@
 
 /* join2 */
 .join2-container {
+  margin: 0 auto;
+  width: 50%;
+  min-width: 30em;
+  max-width: 45em;
   display: flex;
   flex-direction: column;
   justify-content: center;
