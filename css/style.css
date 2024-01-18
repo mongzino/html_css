@@ -48,6 +48,15 @@
 {
     background-color: white;
 }
+
+#main_ContentBox:target
+{
+    background-color: white;
+}
+#youtube-container:target
+{
+    background-color: white;
+}
 .menu ul li.menu_home {
   background-color: red;
 }
@@ -60,6 +69,16 @@
 .menu ul li.menu_footer {
   background-color: purple;
 }
+main .main_field legend
+{
+    padding: 10px auto;
+    font-size: 1.2rem;
+}
+.yt_field legend{
+    padding: 10px auto;
+    font-size: 1.2rem;
+}
+
 .main_ContentBox {
   width: 100%;
   height: auto;
