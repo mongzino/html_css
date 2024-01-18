@@ -1,94 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>상품 상세페이지</title>
-  <link rel="stylesheet" href="../css/product_description.css">
-  <link rel="stylesheet" href="../css/join.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-  <style>
-    
-  </style>
-</head>
-<body>
-  <div style="background-color: aliceblue;">
-    <nav class="join-nav">
-      <div>
-        <a href="../index.html">
-          <i class="fa-solid fa-left-long"></i>
-        <!-- </a> -->
-        <span>회원가입</span>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>상품 상세페이지</title>
+    <link rel="stylesheet" href="../css/product_description.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <style></style>
+  </head>
+  <body>
+    <div class="product_desc_container">
+      <div class="product_main_box">
+        <!-- 사진과 설명 -->
+        <div class="product_main_img">
+          <img src="#" alt="photo" />
+        </div>
+        <div class="product_main_desc">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam,
+          doloremque.
+        </div>
       </div>
-      <a href="../index.html">
-        <!-- <i class="fa-solid fa-house"></i> -->
-      </a>
-    </nav>
-    <div class="product_descTopBox">
-      <!-- 사진과 설명 -->
-      <div class="product_descImage" style="background-image: url(/images/여행사진5.png);
-      background-size: cover; background-position: center; margin-top: 10px;"></div>
-      <div class="prodduct_descImageContent"> 
-        <p>코타키나발루 5일 #프로미네이드 #아일랜드투어 #인생샷코콜힐 #핵심시내관광 #호텔석식1회 #칵테일</p></div>
-    </div>
       <!-- 고정할 항목 -->
-    <div class="product_descFixedBarBox">
-  
-      <div class="product_descFixedBar" id="product_opt1">여행일정</div>
-      <div class="product_descFixedBar" id="product_opt2">호텔 & 관광지</div>
-      <div class="product_descFixedBar" id="product_opt2">선택관광</div>
-      <div class="product_descFixedBar" id="product_opt2">참고사항</div>
-      <div class="product_descFixedBar" id="product_opt2">해외 안전정보</div>
-      <div class="product_descFixedBar" id="product_opt2">여행후기</div>
-    </div>
-    <div>
-      <!-- 내용 -->
-      <div class="product_descText">
-        <!-- <p>여행일정 변경에 관한 사전 동의안내
-  
-          여행일정은 계약체결 시 예상하지 못한 부득이한 사정 등이 발생하는 경우 여행자의 사전동의를 거쳐 변경될 수 있음을 양지하시기 바랍니다. </p> -->
+      <div class="product_desc_menu_box">
+        <div class="product_desc_menu">여행일정</div>
+        <div class="product_desc_menu">호텔&관광지</div>
+        <div class="product_desc_menu">선택관광</div>
+        <div class="product_desc_menu">참고사항</div>
+        <div class="product_desc_menu">해외 안전정보</div>
+        <div class="product_desc_menu">여행후기</div>
       </div>
-        <!-- 그리드 사용해서 내용 지정 -->
-      
-        <div style="margin: 20px;">
-          <div class="row ">
-            <div class="col-2 bg-secondary">
-              <strong>1일차</strong>
-            </div>
-  
-            <div class="col-10" style="background-color: rgb(141, 141, 155);">
-              에펠탑, 개선문, 샹제리제 거리, 콩코르드 광장, [하나팩2.0] 에펠탑(2F)전망대 & 세느강
-            </div>
+      <div class="product_desc_schedule_box">
+        <div class="product_desc_schedule">
+          <div>
+            <span>1일차</span>
+            <span>02/01(목)</span>
           </div>
-          <div style="margin: 1.25rem;"></div>
-  
-  
-          <div class="row">
-            <div class="col-2 bg-secondary">
-              <strong>2일차</strong>
-            </div>
-            
-            <div class="col-10" style="background-color: rgb(141, 141, 155);">
-              파리, 로잔, 프리부르
-            루브르 박물관, TGV LYRIA
-            </div>
-          </div>
-          <div style="margin: 1.25rem;"></div>
-  
-          <div class="row">
-            <div class="col-2 bg-secondary">
-              <strong>3일차</strong>
-            </div>
-  
-            <div class="col-10" style="background-color: rgb(141, 141, 155);">
-              프리부르, 루체른, 밀라노
-            리기산, 빈사의 사자상
-            </div>
+          <div>
+            <span>파리</span>
+            <span> 에펠탑, 개선문, 샹제리제 거리, 콩코르드 광장 </span>
           </div>
         </div>
-        <div style="margin: 1.25rem;"></div>
-  </div>
-  </div>
-</body>
+        <div class="product_desc_schedule">
+          <div>
+            <span>2일차</span>
+            <span>02/02(금)</span>
+          </div>
+          <div>
+            <span> 파리 </span>
+            <span>로잔, 프리부르 루브르 박물관, TGV LYRIA</span>
+          </div>
+        </div>
+        <div class="product_desc_schedule">
+          <div>
+            <span>3일차</span>
+            <span>02/03(토)</span>
+          </div>
+          <div>
+            <span>파리</span>
+            <span> 프리부르, 루체른, 밀라노 리기산, 빈사의 사자상 </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="product_reservation">
+      <h2>인원선택</h2>
+      <div class="product_resev_person">
+        <div class="product_resev_person_left">
+          <span>성인</span>
+          <span>809,000원</span>
+        </div>
+        <div class="product_resev_person_right">
+          <div>-</div>
+          <div>1</div>
+          <div>+</div>
+        </div>
+      </div>
+      <div class="product_resev_price">
+        <span>총 금액</span>
+        <span>809,000원</span>
+      </div>
+      <a href="reservation.html"> 예약하기 </a>
+    </div>
+  </body>
 </html>
