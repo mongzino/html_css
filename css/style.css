@@ -73,7 +73,11 @@
   width: auto;
   height: 200px;
   margin: 10px;
-  border: 1px solid black;
+  transition: transform 0.3s;
+}
+
+.main_Image:hover{
+  transform: scale(1.1); 
 }
 .main_Text {
   width: auto;
