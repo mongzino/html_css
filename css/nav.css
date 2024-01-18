@@ -15,6 +15,8 @@ nav {
   align-items: center;
   padding: 1em 2em;
   box-sizing: border-box;
+  font-size: 0.9em;
+  opacity: 0.8;
 }
 
 nav a {
@@ -32,6 +34,11 @@ nav > div {
 
 .nav2 {
   width: 25em;
+}
+
+.nav1_home img {
+  width: 5em;
+  height: 3em;
 }
 
 .nav1 div,
