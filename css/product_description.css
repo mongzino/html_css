@@ -7,14 +7,26 @@
   flex-wrap: wrap; /* 화면이 작아질 경우에도 여러 줄에 걸쳐 표시되도록 수정 */
 }
 
-.product_descImage,
+.product_descImage {
+  max-width: 400px; /* 원하는 너비로 조절 */
+  height: 200px; /* 원하는 높이로 조절 */
+  border: 1px solid #ccc;
+  transition: transform 0.3s;
+}
+
+.product_descImage:hover{
+  transform: scale(1.1); 
+}
+
+
 .prodduct_descImageContent {
+  padding: 2rem;
+  font-size: 20px;
   box-sizing: border-box;
-  flex: 1; /* 화면 너비에 따라 동적으로 크기 조절 */
-  max-width: 100%; /* 부모 너비보다 큰 경우를 방지 */
+  flex: 1; 
+  max-width: 100%; 
   height: 200px;
   margin: 5px;
-  border: 1px solid purple;
 }
 
 .product_descFixedBarBox {
