@@ -1,3 +1,6 @@
+
+/* footer 구역 시작 */
+
 #footer_all{
 background-color: #EAEAEA;
 border-top: 1px solid;
@@ -5,7 +8,7 @@ margin: 0px -10px;
 color: black;
 
 }
-
+/* 고객센터, 고객센터 운영시간안내, 투어이름 */
 #footer_up{
   font-size: 13\2px;
   margin: 20px ;
@@ -14,22 +17,22 @@ color: black;
   flex-direction: row;
 
 }
-
+/* 조조투어 이름 텍스트 디자인 */
 .footer_title{
 font-weight: bold;
 font-size: 16px;
 }
-
+/* 조조투어 그림 위치 설정 */
 .footer_img{
 position: absolute;
 left: 125px;
 }
-
+/* 고객센터 운영시간 안내 위치 설정 */
 .footer_custime{
 position: fixed;
 left: 1300px; 
 }
-
+/* 투어 주의사항 구역 위치 설정 */
 .footer_notice{
   list-style: none;
   text-align: center;
@@ -37,18 +40,18 @@ left: 1300px;
   position: relative;
   top: 120px;
 }
-
+/* 고객센터 위치 설정 */
 .footer_customer{
 list-style: none;
 margin-left: 400px;
 margin-top: 0px;
 
 }
-
+/* 고객센터 텍스트 스타일 */
 .footer_custitle{
 font-weight: bold;
 }
-
+/* copyright 텍스트 */
 .footer_tourname{
   text-align: right;
   font-size: 11px;
@@ -56,9 +59,10 @@ font-weight: bold;
   margin-right: 40px; 
 }
 
-
+/* 조조투어(주소, 등록번호) 구역 위치설정 */
 .footer.tour_infor{
 border: 1px solid black;
 margin-top: 30px;
 }
 
+/* footer 구역 끝  */
