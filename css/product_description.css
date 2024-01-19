@@ -23,14 +23,16 @@
   max-width: 100%; /* 부모 너비보다 큰 경우를 방지 */
   height: 200px;
   margin: 5px;
-  border: 1px solid purple;
+
 }
+
 .product_main_desc {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: flex-start;
   padding: 1em;
+  /* border: 1px solid purple; */
 }
 .product_desc_menu_box {
   width: 100%;
