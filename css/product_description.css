@@ -23,7 +23,6 @@
   max-width: 100%; /* 부모 너비보다 큰 경우를 방지 */
   height: 200px;
   margin: 5px;
-
 }
 
 .product_main_desc {
@@ -91,16 +90,6 @@
   font-weight: 700;
 }
 
-.product_reservation {
-  position: absolute;
-  top: 30%;
-  right: -22em;
-  border: 1px solid #e5e5e5;
-  width: 18em;
-  display: flex;
-  flex-direction: column;
-  border-radius: 1em;
-}
 .product_reservation h2 {
   width: 90%;
   margin: 1em auto;
@@ -150,4 +139,26 @@
   width: 90%;
   margin: 2em auto;
   text-align: center;
+}
+
+.product_reservation {
+  border: 1px solid #e5e5e5;
+  width: 18em;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1em;
+}
+@media (min-width: 391px) {
+  .product_reservation {
+    position: absolute;
+    top: 30%;
+    right: -22em;
+  }
+}
+@media (max-width: 390px) {
+  .product_reservation {
+    position: absolute;
+    bottom: -28em;
+    left: 0;
+  }
 }
