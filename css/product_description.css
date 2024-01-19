@@ -1,3 +1,5 @@
+@import "nav.css";
+
 .product_desc_container {
   width: 80%;
   max-width: 50em;
@@ -146,10 +148,4 @@
   width: 90%;
   margin: 2em auto;
   text-align: center;
-}
-.product_reservation @media screen and (min-width: 600px) {
-  .product_descImage,
-  .prodduct_descImageContent {
-    flex: 0 0 calc(50% - 10px); /* 화면이 600px 이상일 때, 각각의 너비를 50%로 조절하고 간격을 포함한 크기로 설정 */
-  }
 }

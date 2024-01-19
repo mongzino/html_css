@@ -1,0 +1,66 @@
+a {
+  text-decoration: none;
+}
+
+header {
+  min-width: 50em;
+  width: 100%;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 5em;
+  width: 100%;
+  min-width: 50em;
+  align-items: center;
+  padding: 1em 2em;
+  box-sizing: border-box;
+  font-size: 0.9em;
+  opacity: 0.8;
+}
+
+nav a {
+  color: black;
+}
+nav > div {
+  display: flex;
+  height: 100%;
+}
+
+.nav1,
+.nav3 {
+  width: 12em;
+}
+
+.nav2 {
+  width: 25em;
+}
+
+.nav1_home img {
+  width: 5em;
+  height: 3em;
+}
+
+.nav1 div,
+.nav3 div {
+  margin: 0 1em;
+}
+
+.nav2 div {
+  width: 100%;
+  height: 70%;
+  position: relative;
+  border-radius: 2em;
+  border: 2px solid #5e5e5e;
+}
+
+.nav2 i {
+  position: absolute;
+  right: 0.8em;
+  top: 0.3em;
+  font-size: 1.2em;
+}
+
+.nav3 {
+  justify-content: flex-end;
+}
