@@ -1,6 +1,7 @@
 @media (max-width: 390px) {
   .nav2_search {
     display: none;
+    width: 1em;
   }
 }
 @media (min-width: 391px) {
