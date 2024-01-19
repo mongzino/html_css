@@ -1,7 +1,9 @@
 @import "nav.css";
-
 a {
   text-decoration: none;
+}
+body {
+  margin: 0;
 }
 .menu ul {
   list-style: none;
@@ -70,71 +72,56 @@ a {
   margin-bottom: 5em;
 }
 
-/* 양지은 footer 구역 시작 */
-
-#footer_all {
+/* 양지은_1/19일에 footer 새로 작성한 부분 시작 */
+/* 새로 작성한 footer 그리드 영역 */
+.footer_container{
+  display: grid;
+  grid-template-columns: 4;
+  grid-row-gap: 150px;
+  grid-template-rows: 4;
+  text-align: left;
+  font-size : 17px;
   background-color: #eaeaea;
-  border-top: 1px solid;
-  width: 100%;
-  /* height: auto; */
-  color: black;
-}
-/* 고객센터, 고객센터 운영시간안내, 투어이름 */
-#footer_up {
-  font-size: 17px;
-  color: #5e5e5e;
-  margin: 20px;
-  margin-top: 50px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-flow: no wrap;
-}
-/* 조조투어 이름 텍스트 디자인 */
-.footer_title {
+  }
+  /* 새로 작성한 footer 회사 이름 스타일, 위치 */
+  .footer_title{
+  font-size: 18px;
   font-weight: bold;
-  font-size: 1rem;
-  color: black;
-}
-/* 조조투어 그림 위치 설정 */
-.footer_img {
-  position: absolute;
-  left: 125px;
-}
-/* 고객센터 운영시간 안내 위치 설정 */
-.footer_custime {
-  margin-left: 250px;
-}
-/* 투어 주의사항 구역 위치 설정 */
-.footer_notice {
-  list-style: none;
-  text-align: center;
-  font-size: 12px;
   position: relative;
-  top: 120px;
-}
-/* 고객센터 위치 설정 */
-.footer_customer {
-  list-style: none;
-  margin-left: 250px;
-  margin-top: 0px;
-}
-/* 고객센터 텍스트 스타일 */
-.footer_custitle {
+  top: -10px;
+  left: 7px;
+  }
+/* 새로 작성한 푸터 (회사 이름, 고객센터, 고객 센터 시간 구역 디자인,위치설정 */
+  .footer{
+  text-align: center;
+  
+  }
+  /* 새로 작성한 푸터 회사이름 구역 사진 위치, 디자인 설정 */
+  .footer_img{
+  position: relative;
+  top: 12px;
+  left: -2px;
+  }
+  /* 새로 작성한 푸터 "고객 운영시간 안내" 텍스트 디자인, 위치 설정 */
+  .footer_customer_title{
+  
+  font-size: 17px;
   font-weight: bold;
-}
-/* copyright 텍스트 */
-.footer_tourname {
-  text-align: right;
-  font-size: 11px;
-  margin-top: 200px;
-  margin-right: 40px;
-}
-
-/* 조조투어(주소, 등록번호) 구역 위치설정 */
-.footer.tour_infor {
-  border: 1px solid black;
-  margin-top: 30px;
-}
-
-/* 양지은 footer 구역 끝  */
+  color: #747474;
+  }
+  /* 새로 작성한 회사 주의사항 디자인, 위치 설정 */
+  .footer_notice{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    box-sizing: border-box;
+    height: 145px;
+    list-style: none;
+    text-align: center;
+    font-size: 15px;
+    
+  }
+  /* 새로 작성한 푸터 밑 회사 이름 설정 */
+  .footer_bottom_tourname{
+    font-size: 11px
+  }
+  /* 양지은_1/19일에 footer 새로 작성한 부분 끝 */
